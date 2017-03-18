@@ -1,0 +1,9 @@
+/**/*.user
+packages
+.vs
+FloristNew/.nyc_output
+FloristNew/bin
+FloristNew/obj
+FloristNew/coverage
+FloristNew/node_modules
+FloristNew/Scripts/dist

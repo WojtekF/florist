@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "outDir": "./Scripts/dist/",
+        "sourceMap": true,
+        "noImplicitAny": false,
+        "alwaysStrict": true,
+        "experimentalDecorators": true,
+        "module": "commonjs",
+        "target": "es5",
+        "jsx": "react",
+        // "lib": [ "es2015", "dom", "es2015.promise", "scripthost" ],
+        "typeRoots": [
+            // add path to @types
+            "node_modules/@types"
+        ]
+    },
+    "exclude": [
+        "node_modules",
+        "wwwroot",
+        "src/__tests__"
+    ]
+}
